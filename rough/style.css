@@ -1,0 +1,27 @@
+.popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #5a2121;
+    border: 1px solid #ccc;
+    /* padding: 20px; */
+    width: 300px;
+    height: 200px; /* Adjust height as needed */
+}
+
+.popup-content {
+    text-align: center;
+}
+
+#close-popup {
+    margin-top: 10px;
+    /* padding: 5px 10px; */
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
